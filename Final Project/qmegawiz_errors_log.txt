@@ -1,0 +1,19 @@
+
+
+C:/Users/KeineZwei/Desktop/project/VGA_Sample_Code/VGA_Adapter_Code/vga_pll.v
+
+Jul 21 03PM:34:20>: Error in CNX file format.
+
+Error messages are listed in file
+C:/Users/KeineZwei/Desktop/project/VGA_Sample_Code/VGA_Adapter_Code/vga_pll.cnxerr.
+
+Can't create the custom megafunction variation file(s)
+
+C:/Users/KeineZwei/Desktop/project/VGA_Sample_Code/VGA_Adapter_Code/vga_pll.v
+
+Jul 21 03PM:34:42>: Error in CNX file format.
+
+Error messages are listed in file
+C:/Users/KeineZwei/Desktop/project/VGA_Sample_Code/VGA_Adapter_Code/vga_pll.cnxerr.
+
+Can't create the custom megafunction variation file(s)

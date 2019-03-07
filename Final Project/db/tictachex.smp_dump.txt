@@ -1,0 +1,10 @@
+
+State Machine - |tictachex|control:c1|current_state
+Name current_state.END_GAME current_state.FLIP_PLAYER current_state.CORRECT_MOVE current_state.INCORRECT_MOVE current_state.ASSESS_MOVE current_state.LOAD_MOVE_WAIT current_state.LOAD_MOVE 
+current_state.LOAD_MOVE 0 0 0 0 0 0 0 
+current_state.LOAD_MOVE_WAIT 0 0 0 0 0 1 1 
+current_state.ASSESS_MOVE 0 0 0 0 1 0 1 
+current_state.INCORRECT_MOVE 0 0 0 1 0 0 1 
+current_state.CORRECT_MOVE 0 0 1 0 0 0 1 
+current_state.FLIP_PLAYER 0 1 0 0 0 0 1 
+current_state.END_GAME 1 0 0 0 0 0 1 

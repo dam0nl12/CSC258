@@ -1,0 +1,6 @@
+
+State Machine - |project_vga|control:co|current_state
+Name current_state.LOAD_MOVE current_state.DRAW current_state.LOAD_MOVE_WAIT 
+current_state.LOAD_MOVE 0 0 0 
+current_state.LOAD_MOVE_WAIT 1 0 1 
+current_state.DRAW 1 1 0 

@@ -1,0 +1,36 @@
+# OpenFile tictachex.v
+do tictachex.do
+# Model Technology ModelSim ALTERA vlog 10.4d Compiler 2015.12 Dec 30 2015
+# Start time: 15:59:18 on Jul 10,2017
+# vlog -reportprogress 300 -timescale 1ns/1ns tictachex.v 
+# -- Compiling module tictachex
+# -- Compiling module hexdisplay
+# 
+# Top level modules:
+# 	tictachex
+# End time: 15:59:18 on Jul 10,2017, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vsim tictachex 
+# Start time: 15:59:18 on Jul 10,2017
+# Loading work.tictachex
+# Loading work.hexdisplay
+do tictachex.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# Model Technology ModelSim ALTERA vlog 10.4d Compiler 2015.12 Dec 30 2015
+# Start time: 16:08:08 on Jul 10,2017
+# vlog -reportprogress 300 -timescale 1ns/1ns tictachex.v 
+# -- Compiling module tictachex
+# -- Compiling module hexdisplay
+# 
+# Top level modules:
+# 	tictachex
+# End time: 16:08:08 on Jul 10,2017, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 16:08:23 on Jul 10,2017, Elapsed time: 0:09:05
+# Errors: 0, Warnings: 0
+# vsim tictachex 
+# Start time: 16:08:23 on Jul 10,2017
+# Loading work.tictachex
+# Loading work.hexdisplay
+# End time: 16:09:10 on Jul 10,2017, Elapsed time: 0:00:47
+# Errors: 0, Warnings: 0

@@ -1,0 +1,486 @@
+# OpenFile shift_test.v
+do shift_test.do
+# Model Technology ModelSim ALTERA vlog 10.4d Compiler 2015.12 Dec 30 2015
+# Start time: 16:28:21 on Jul 17,2017
+# vlog -reportprogress 300 -timescale 1ns/1ns shift_test.v 
+# -- Compiling module shift_test
+# -- Compiling module index_tester
+# -- Compiling module shift_register
+# -- Compiling module clockdivider
+# -- Compiling module hexdisplay
+# 
+# Top level modules:
+# 	shift_test
+# End time: 16:28:21 on Jul 17,2017, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vsim shift_test 
+# Start time: 16:28:21 on Jul 17,2017
+# Loading work.shift_test
+# Loading work.index_tester
+# Loading work.hexdisplay
+# Loading work.clockdivider
+# Loading work.shift_register
+# ** Error: Time value must not be negative: 5 -
+# Error in macro ./shift_test.do line 12
+# Time value must not be negative: 5 -
+#     while executing
+# "force {KEY[0]} 0 0, 1 5 - r 10"
+do shift_test.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# Model Technology ModelSim ALTERA vlog 10.4d Compiler 2015.12 Dec 30 2015
+# Start time: 16:28:46 on Jul 17,2017
+# vlog -reportprogress 300 -timescale 1ns/1ns shift_test.v 
+# -- Compiling module shift_test
+# -- Compiling module index_tester
+# -- Compiling module shift_register
+# -- Compiling module clockdivider
+# -- Compiling module hexdisplay
+# 
+# Top level modules:
+# 	shift_test
+# End time: 16:28:46 on Jul 17,2017, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 16:28:49 on Jul 17,2017, Elapsed time: 0:00:28
+# Errors: 3, Warnings: 0
+# vsim shift_test 
+# Start time: 16:28:49 on Jul 17,2017
+# Loading work.shift_test
+# Loading work.index_tester
+# Loading work.hexdisplay
+# Loading work.clockdivider
+# Loading work.shift_register
+do shift_test.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# Model Technology ModelSim ALTERA vlog 10.4d Compiler 2015.12 Dec 30 2015
+# Start time: 16:35:49 on Jul 17,2017
+# vlog -reportprogress 300 -timescale 1ns/1ns shift_test.v 
+# -- Compiling module shift_test
+# -- Compiling module index_tester
+# -- Compiling module shift_register
+# -- Compiling module clockdivider
+# -- Compiling module hexdisplay
+# 
+# Top level modules:
+# 	shift_test
+# End time: 16:35:49 on Jul 17,2017, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 16:35:52 on Jul 17,2017, Elapsed time: 0:07:03
+# Errors: 0, Warnings: 0
+# vsim shift_test 
+# Start time: 16:35:52 on Jul 17,2017
+# Loading work.shift_test
+# Loading work.index_tester
+# Loading work.hexdisplay
+# Loading work.clockdivider
+# Loading work.shift_register
+do shift_test.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# Model Technology ModelSim ALTERA vlog 10.4d Compiler 2015.12 Dec 30 2015
+# Start time: 16:38:59 on Jul 17,2017
+# vlog -reportprogress 300 -timescale 1ns/1ns shift_test.v 
+# -- Compiling module shift_test
+# -- Compiling module index_tester
+# -- Compiling module shift_register
+# -- Compiling module clockdivider
+# -- Compiling module hexdisplay
+# 
+# Top level modules:
+# 	shift_test
+# End time: 16:38:59 on Jul 17,2017, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 16:39:02 on Jul 17,2017, Elapsed time: 0:03:10
+# Errors: 0, Warnings: 0
+# vsim shift_test 
+# Start time: 16:39:02 on Jul 17,2017
+# Loading work.shift_test
+# Loading work.index_tester
+# Loading work.hexdisplay
+# Loading work.clockdivider
+# Loading work.shift_register
+do shift_test.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# Model Technology ModelSim ALTERA vlog 10.4d Compiler 2015.12 Dec 30 2015
+# Start time: 16:41:00 on Jul 17,2017
+# vlog -reportprogress 300 -timescale 1ns/1ns shift_test.v 
+# -- Compiling module shift_test
+# -- Compiling module index_tester
+# -- Compiling module shift_register
+# -- Compiling module clockdivider
+# -- Compiling module hexdisplay
+# 
+# Top level modules:
+# 	shift_test
+# End time: 16:41:00 on Jul 17,2017, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 16:41:03 on Jul 17,2017, Elapsed time: 0:02:01
+# Errors: 0, Warnings: 0
+# vsim shift_test 
+# Start time: 16:41:03 on Jul 17,2017
+# Loading work.shift_test
+# Loading work.index_tester
+# Loading work.hexdisplay
+# Loading work.clockdivider
+# Loading work.shift_register
+do shift_test.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# Model Technology ModelSim ALTERA vlog 10.4d Compiler 2015.12 Dec 30 2015
+# Start time: 16:44:25 on Jul 17,2017
+# vlog -reportprogress 300 -timescale 1ns/1ns shift_test.v 
+# -- Compiling module shift_test
+# -- Compiling module index_tester
+# -- Compiling module shift_register
+# -- Compiling module clockdivider
+# -- Compiling module hexdisplay
+# 
+# Top level modules:
+# 	shift_test
+# End time: 16:44:25 on Jul 17,2017, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 16:44:28 on Jul 17,2017, Elapsed time: 0:03:25
+# Errors: 0, Warnings: 0
+# vsim shift_test 
+# Start time: 16:44:28 on Jul 17,2017
+# Loading work.shift_test
+# Loading work.index_tester
+# Loading work.hexdisplay
+# Loading work.clockdivider
+# Loading work.shift_register
+do shift_test.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# Model Technology ModelSim ALTERA vlog 10.4d Compiler 2015.12 Dec 30 2015
+# Start time: 16:50:06 on Jul 17,2017
+# vlog -reportprogress 300 -timescale 1ns/1ns shift_test.v 
+# -- Compiling module shift_test
+# -- Compiling module index_tester
+# -- Compiling module shift_register
+# -- Compiling module clockdivider
+# -- Compiling module hexdisplay
+# 
+# Top level modules:
+# 	shift_test
+# End time: 16:50:06 on Jul 17,2017, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 16:50:07 on Jul 17,2017, Elapsed time: 0:05:39
+# Errors: 0, Warnings: 0
+# vsim shift_test 
+# Start time: 16:50:07 on Jul 17,2017
+# Loading work.shift_test
+# Loading work.index_tester
+# Loading work.hexdisplay
+# Loading work.clockdivider
+# Loading work.shift_register
+do shift_test.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# Model Technology ModelSim ALTERA vlog 10.4d Compiler 2015.12 Dec 30 2015
+# Start time: 16:50:34 on Jul 17,2017
+# vlog -reportprogress 300 -timescale 1ns/1ns shift_test.v 
+# -- Compiling module shift_test
+# -- Compiling module index_tester
+# -- Compiling module shift_register
+# -- Compiling module clockdivider
+# -- Compiling module hexdisplay
+# 
+# Top level modules:
+# 	shift_test
+# End time: 16:50:34 on Jul 17,2017, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 16:50:36 on Jul 17,2017, Elapsed time: 0:00:29
+# Errors: 0, Warnings: 0
+# vsim shift_test 
+# Start time: 16:50:36 on Jul 17,2017
+# Loading work.shift_test
+# Loading work.index_tester
+# Loading work.hexdisplay
+# Loading work.clockdivider
+# Loading work.shift_register
+do shift_test.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# Model Technology ModelSim ALTERA vlog 10.4d Compiler 2015.12 Dec 30 2015
+# Start time: 16:51:13 on Jul 17,2017
+# vlog -reportprogress 300 -timescale 1ns/1ns shift_test.v 
+# -- Compiling module shift_test
+# -- Compiling module index_tester
+# -- Compiling module shift_register
+# -- Compiling module clockdivider
+# -- Compiling module hexdisplay
+# 
+# Top level modules:
+# 	shift_test
+# End time: 16:51:13 on Jul 17,2017, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 16:51:15 on Jul 17,2017, Elapsed time: 0:00:39
+# Errors: 0, Warnings: 0
+# vsim shift_test 
+# Start time: 16:51:15 on Jul 17,2017
+# Loading work.shift_test
+# Loading work.index_tester
+# Loading work.hexdisplay
+# Loading work.clockdivider
+# Loading work.shift_register
+do shift_test.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# Model Technology ModelSim ALTERA vlog 10.4d Compiler 2015.12 Dec 30 2015
+# Start time: 16:52:41 on Jul 17,2017
+# vlog -reportprogress 300 -timescale 1ns/1ns shift_test.v 
+# -- Compiling module shift_test
+# -- Compiling module index_tester
+# -- Compiling module shift_register
+# -- Compiling module clockdivider
+# -- Compiling module hexdisplay
+# 
+# Top level modules:
+# 	shift_test
+# End time: 16:52:41 on Jul 17,2017, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 16:52:42 on Jul 17,2017, Elapsed time: 0:01:27
+# Errors: 0, Warnings: 0
+# vsim shift_test 
+# Start time: 16:52:42 on Jul 17,2017
+# Loading work.shift_test
+# Loading work.index_tester
+# Loading work.hexdisplay
+# Loading work.clockdivider
+# Loading work.shift_register
+do shift_test.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# Model Technology ModelSim ALTERA vlog 10.4d Compiler 2015.12 Dec 30 2015
+# Start time: 16:57:14 on Jul 17,2017
+# vlog -reportprogress 300 -timescale 1ns/1ns shift_test.v 
+# -- Compiling module shift_test
+# -- Compiling module index_tester
+# -- Compiling module shift_register
+# -- Compiling module clockdivider
+# -- Compiling module hexdisplay
+# 
+# Top level modules:
+# 	shift_test
+# End time: 16:57:14 on Jul 17,2017, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 16:57:16 on Jul 17,2017, Elapsed time: 0:04:34
+# Errors: 0, Warnings: 0
+# vsim shift_test 
+# Start time: 16:57:16 on Jul 17,2017
+# Loading work.shift_test
+# Loading work.index_tester
+# Loading work.hexdisplay
+# Loading work.clockdivider
+# Loading work.shift_register
+do shift_test.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# Model Technology ModelSim ALTERA vlog 10.4d Compiler 2015.12 Dec 30 2015
+# Start time: 16:57:44 on Jul 17,2017
+# vlog -reportprogress 300 -timescale 1ns/1ns shift_test.v 
+# -- Compiling module shift_test
+# -- Compiling module index_tester
+# -- Compiling module shift_register
+# -- Compiling module clockdivider
+# -- Compiling module hexdisplay
+# 
+# Top level modules:
+# 	shift_test
+# End time: 16:57:44 on Jul 17,2017, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 16:57:46 on Jul 17,2017, Elapsed time: 0:00:30
+# Errors: 0, Warnings: 0
+# vsim shift_test 
+# Start time: 16:57:46 on Jul 17,2017
+# Loading work.shift_test
+# Loading work.index_tester
+# Loading work.hexdisplay
+# Loading work.clockdivider
+# Loading work.shift_register
+do shift_test.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# Model Technology ModelSim ALTERA vlog 10.4d Compiler 2015.12 Dec 30 2015
+# Start time: 17:01:29 on Jul 17,2017
+# vlog -reportprogress 300 -timescale 1ns/1ns shift_test.v 
+# -- Compiling module shift_test
+# -- Compiling module index_tester
+# -- Compiling module shift_register
+# -- Compiling module clockdivider
+# -- Compiling module hexdisplay
+# 
+# Top level modules:
+# 	shift_test
+# End time: 17:01:29 on Jul 17,2017, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 17:01:32 on Jul 17,2017, Elapsed time: 0:03:46
+# Errors: 0, Warnings: 0
+# vsim shift_test 
+# Start time: 17:01:33 on Jul 17,2017
+# Loading work.shift_test
+# Loading work.index_tester
+# Loading work.hexdisplay
+# Loading work.clockdivider
+# Loading work.shift_register
+# ** Error: Invalid time value: force KEY[0]
+# Error in macro ./shift_test.do line 10
+# Invalid time value: force KEY[0]
+#     while executing
+# "force {SW[9]} 0 force {KEY[0]} 0"
+do shift_test.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# Model Technology ModelSim ALTERA vlog 10.4d Compiler 2015.12 Dec 30 2015
+# Start time: 17:02:40 on Jul 17,2017
+# vlog -reportprogress 300 -timescale 1ns/1ns shift_test.v 
+# -- Compiling module shift_test
+# -- Compiling module index_tester
+# -- Compiling module shift_register
+# -- Compiling module clockdivider
+# -- Compiling module hexdisplay
+# 
+# Top level modules:
+# 	shift_test
+# End time: 17:02:41 on Jul 17,2017, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# End time: 17:02:44 on Jul 17,2017, Elapsed time: 0:01:11
+# Errors: 3, Warnings: 0
+# vsim shift_test 
+# Start time: 17:02:44 on Jul 17,2017
+# Loading work.shift_test
+# Loading work.index_tester
+# Loading work.hexdisplay
+# Loading work.clockdivider
+# Loading work.shift_register
+do shift_test.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# Model Technology ModelSim ALTERA vlog 10.4d Compiler 2015.12 Dec 30 2015
+# Start time: 17:04:04 on Jul 17,2017
+# vlog -reportprogress 300 -timescale 1ns/1ns shift_test.v 
+# -- Compiling module shift_test
+# -- Compiling module index_tester
+# -- Compiling module shift_register
+# -- Compiling module clockdivider
+# -- Compiling module hexdisplay
+# 
+# Top level modules:
+# 	shift_test
+# End time: 17:04:05 on Jul 17,2017, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# End time: 17:04:09 on Jul 17,2017, Elapsed time: 0:01:25
+# Errors: 0, Warnings: 0
+# vsim shift_test 
+# Start time: 17:04:09 on Jul 17,2017
+# Loading work.shift_test
+# Loading work.index_tester
+# Loading work.hexdisplay
+# Loading work.clockdivider
+# Loading work.shift_register
+do shift_test.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# Model Technology ModelSim ALTERA vlog 10.4d Compiler 2015.12 Dec 30 2015
+# Start time: 17:10:40 on Jul 17,2017
+# vlog -reportprogress 300 -timescale 1ns/1ns shift_test.v 
+# -- Compiling module shift_test
+# -- Compiling module index_tester
+# -- Compiling module shift_register
+# ** Error: (vlog-13069) shift_test.v(174): near "end": syntax error, unexpected end, expecting ';'.
+# -- Compiling module clockdivider
+# -- Compiling module hexdisplay
+# End time: 17:10:40 on Jul 17,2017, Elapsed time: 0:00:00
+# Errors: 1, Warnings: 0
+# ** Error: /s/appspace/quartus-16.0.0.211/modelsim_ase/linuxaloem/vlog failed.
+# Error in macro ./shift_test.do line 2
+# /s/appspace/quartus-16.0.0.211/modelsim_ase/linuxaloem/vlog failed.
+#     while executing
+# "vlog -timescale 1ns/1ns shift_test.v"
+do shift_test.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# Model Technology ModelSim ALTERA vlog 10.4d Compiler 2015.12 Dec 30 2015
+# Start time: 17:11:00 on Jul 17,2017
+# vlog -reportprogress 300 -timescale 1ns/1ns shift_test.v 
+# -- Compiling module shift_test
+# -- Compiling module index_tester
+# -- Compiling module shift_register
+# -- Compiling module clockdivider
+# -- Compiling module hexdisplay
+# 
+# Top level modules:
+# 	shift_test
+# End time: 17:11:00 on Jul 17,2017, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 17:11:09 on Jul 17,2017, Elapsed time: 0:07:00
+# Errors: 4, Warnings: 0
+# vsim shift_test 
+# Start time: 17:11:09 on Jul 17,2017
+# Loading work.shift_test
+# Loading work.index_tester
+# Loading work.hexdisplay
+# Loading work.clockdivider
+# Loading work.shift_register
+do shift_test.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# Model Technology ModelSim ALTERA vlog 10.4d Compiler 2015.12 Dec 30 2015
+# Start time: 17:14:25 on Jul 17,2017
+# vlog -reportprogress 300 -timescale 1ns/1ns shift_test.v 
+# -- Compiling module shift_test
+# -- Compiling module index_tester
+# -- Compiling module shift_register
+# -- Compiling module clockdivider
+# -- Compiling module hexdisplay
+# 
+# Top level modules:
+# 	shift_test
+# End time: 17:14:25 on Jul 17,2017, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 17:14:34 on Jul 17,2017, Elapsed time: 0:03:25
+# Errors: 0, Warnings: 0
+# vsim shift_test 
+# Start time: 17:14:34 on Jul 17,2017
+# Loading work.shift_test
+# Loading work.index_tester
+# Loading work.hexdisplay
+# Loading work.clockdivider
+# Loading work.shift_register
+do shift_test.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# Model Technology ModelSim ALTERA vlog 10.4d Compiler 2015.12 Dec 30 2015
+# Start time: 17:20:28 on Jul 17,2017
+# vlog -reportprogress 300 -timescale 1ns/1ns shift_test.v 
+# -- Compiling module shift_test
+# -- Compiling module index_tester
+# -- Compiling module shift_register
+# -- Compiling module clockdivider
+# -- Compiling module hexdisplay
+# 
+# Top level modules:
+# 	shift_test
+# End time: 17:20:28 on Jul 17,2017, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 17:20:38 on Jul 17,2017, Elapsed time: 0:06:04
+# Errors: 0, Warnings: 0
+# vsim shift_test 
+# Start time: 17:20:38 on Jul 17,2017
+# Loading work.shift_test
+# Loading work.index_tester
+# Loading work.hexdisplay
+# Loading work.clockdivider
+# Loading work.shift_register
+do shift_test.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# Model Technology ModelSim ALTERA vlog 10.4d Compiler 2015.12 Dec 30 2015
+# Start time: 17:25:06 on Jul 17,2017
+# vlog -reportprogress 300 -timescale 1ns/1ns shift_test.v 
+# -- Compiling module shift_test
+# -- Compiling module index_tester
+# -- Compiling module shift_register
+# -- Compiling module clockdivider
+# -- Compiling module hexdisplay
+# 
+# Top level modules:
+# 	shift_test
+# End time: 17:25:06 on Jul 17,2017, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 17:25:16 on Jul 17,2017, Elapsed time: 0:04:38
+# Errors: 0, Warnings: 0
+# vsim shift_test 
+# Start time: 17:25:16 on Jul 17,2017
+# Loading work.shift_test
+# Loading work.index_tester
+# Loading work.hexdisplay
+# Loading work.clockdivider
+# Loading work.shift_register
+# Break key hit
+# Simulation stop requested.
+# End time: 17:29:46 on Jul 17,2017, Elapsed time: 0:04:30
+# Errors: 0, Warnings: 0

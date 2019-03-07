@@ -1,0 +1,401 @@
+|shift_test
+SW[0] => SW[0].IN9
+SW[1] => ~NO_FANOUT~
+SW[2] => ~NO_FANOUT~
+SW[3] => ~NO_FANOUT~
+SW[4] => ~NO_FANOUT~
+SW[5] => ~NO_FANOUT~
+SW[6] => ~NO_FANOUT~
+SW[7] => ~NO_FANOUT~
+SW[8] => ~NO_FANOUT~
+SW[9] => ~NO_FANOUT~
+KEY[0] => KEY[0].IN1
+KEY[1] => KEY[1].IN1
+KEY[2] => KEY[2].IN10
+KEY[3] => KEY[3].IN1
+CLOCK_50 => clk.IN11
+HEX0[0] <= hexdisplay:h1.HEX
+HEX0[1] <= hexdisplay:h1.HEX
+HEX0[2] <= hexdisplay:h1.HEX
+HEX0[3] <= hexdisplay:h1.HEX
+HEX0[4] <= hexdisplay:h1.HEX
+HEX0[5] <= hexdisplay:h1.HEX
+HEX0[6] <= hexdisplay:h1.HEX
+HEX1[0] <= hexdisplay:h2.HEX
+HEX1[1] <= hexdisplay:h2.HEX
+HEX1[2] <= hexdisplay:h2.HEX
+HEX1[3] <= hexdisplay:h2.HEX
+HEX1[4] <= hexdisplay:h2.HEX
+HEX1[5] <= hexdisplay:h2.HEX
+HEX1[6] <= hexdisplay:h2.HEX
+LEDR[0] <= shift_register:s9.q
+LEDR[1] <= shift_register:s8.q
+LEDR[2] <= shift_register:s7.q
+LEDR[3] <= shift_register:s6.q
+LEDR[4] <= shift_register:s5.q
+LEDR[5] <= shift_register:s4.q
+LEDR[6] <= shift_register:s3.q
+LEDR[7] <= shift_register:s2.q
+LEDR[8] <= shift_register:s1.q
+
+
+|shift_test|index_tester:i1
+row => row_out[0]~reg0.CLK
+row => row_out[1]~reg0.CLK
+row => row_out[2]~reg0.CLK
+row => row_out[3]~reg0.CLK
+col => col_out[0]~reg0.CLK
+col => col_out[1]~reg0.CLK
+col => col_out[2]~reg0.CLK
+col => col_out[3]~reg0.CLK
+confirm => shifter_val.OUTPUTSELECT
+confirm => shifter_val.OUTPUTSELECT
+confirm => shifter_val.OUTPUTSELECT
+confirm => shifter_val.OUTPUTSELECT
+confirm => shifter_val.OUTPUTSELECT
+confirm => shifter_val.OUTPUTSELECT
+confirm => shifter_val.OUTPUTSELECT
+confirm => shifter_val.OUTPUTSELECT
+confirm => shifter_val.OUTPUTSELECT
+resetn => shifter_val.OUTPUTSELECT
+resetn => shifter_val.OUTPUTSELECT
+resetn => shifter_val.OUTPUTSELECT
+resetn => shifter_val.OUTPUTSELECT
+resetn => shifter_val.OUTPUTSELECT
+resetn => shifter_val.OUTPUTSELECT
+resetn => shifter_val.OUTPUTSELECT
+resetn => shifter_val.OUTPUTSELECT
+resetn => shifter_val.OUTPUTSELECT
+clk => shifter_val[0]~reg0.CLK
+clk => shifter_val[1]~reg0.CLK
+clk => shifter_val[2]~reg0.CLK
+clk => shifter_val[3]~reg0.CLK
+clk => shifter_val[4]~reg0.CLK
+clk => shifter_val[5]~reg0.CLK
+clk => shifter_val[6]~reg0.CLK
+clk => shifter_val[7]~reg0.CLK
+clk => shifter_val[8]~reg0.CLK
+flip => ~NO_FANOUT~
+row_out[0] <= row_out[0]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+row_out[1] <= row_out[1]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+row_out[2] <= row_out[2]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+row_out[3] <= row_out[3]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+col_out[0] <= col_out[0]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+col_out[1] <= col_out[1]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+col_out[2] <= col_out[2]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+col_out[3] <= col_out[3]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+shifter_val[0] <= shifter_val[0]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+shifter_val[1] <= shifter_val[1]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+shifter_val[2] <= shifter_val[2]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+shifter_val[3] <= shifter_val[3]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+shifter_val[4] <= shifter_val[4]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+shifter_val[5] <= shifter_val[5]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+shifter_val[6] <= shifter_val[6]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+shifter_val[7] <= shifter_val[7]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+shifter_val[8] <= shifter_val[8]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|shift_test|hexdisplay:h1
+X[0] => HEX.IN1
+X[0] => HEX.IN1
+X[0] => HEX.IN1
+X[0] => HEX.IN1
+X[0] => HEX.IN0
+X[0] => HEX.IN1
+X[0] => HEX.IN1
+X[0] => HEX.IN1
+X[0] => HEX.IN1
+X[0] => HEX.IN1
+X[0] => HEX.IN1
+X[0] => HEX.IN1
+X[0] => HEX.IN1
+X[0] => HEX.IN1
+X[0] => HEX.IN1
+X[0] => HEX.IN1
+X[1] => HEX.IN0
+X[1] => HEX.IN1
+X[1] => HEX.IN1
+X[1] => HEX.IN0
+X[1] => HEX.IN0
+X[1] => HEX.IN1
+X[1] => HEX.IN1
+X[1] => HEX.IN1
+X[1] => HEX.IN1
+X[1] => HEX.IN1
+X[1] => HEX.IN0
+X[2] => HEX.IN1
+X[2] => HEX.IN0
+X[2] => HEX.IN1
+X[2] => HEX.IN0
+X[2] => HEX.IN0
+X[2] => HEX.IN0
+X[3] => HEX.IN1
+X[3] => HEX.IN1
+X[3] => HEX.IN1
+X[3] => HEX.IN1
+X[3] => HEX.IN1
+X[3] => HEX.IN1
+X[3] => HEX.IN1
+HEX[0] <= HEX.DB_MAX_OUTPUT_PORT_TYPE
+HEX[1] <= HEX.DB_MAX_OUTPUT_PORT_TYPE
+HEX[2] <= HEX.DB_MAX_OUTPUT_PORT_TYPE
+HEX[3] <= HEX.DB_MAX_OUTPUT_PORT_TYPE
+HEX[4] <= HEX.DB_MAX_OUTPUT_PORT_TYPE
+HEX[5] <= HEX.DB_MAX_OUTPUT_PORT_TYPE
+HEX[6] <= HEX.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|shift_test|hexdisplay:h2
+X[0] => HEX.IN1
+X[0] => HEX.IN1
+X[0] => HEX.IN1
+X[0] => HEX.IN1
+X[0] => HEX.IN0
+X[0] => HEX.IN1
+X[0] => HEX.IN1
+X[0] => HEX.IN1
+X[0] => HEX.IN1
+X[0] => HEX.IN1
+X[0] => HEX.IN1
+X[0] => HEX.IN1
+X[0] => HEX.IN1
+X[0] => HEX.IN1
+X[0] => HEX.IN1
+X[0] => HEX.IN1
+X[1] => HEX.IN0
+X[1] => HEX.IN1
+X[1] => HEX.IN1
+X[1] => HEX.IN0
+X[1] => HEX.IN0
+X[1] => HEX.IN1
+X[1] => HEX.IN1
+X[1] => HEX.IN1
+X[1] => HEX.IN1
+X[1] => HEX.IN1
+X[1] => HEX.IN0
+X[2] => HEX.IN1
+X[2] => HEX.IN0
+X[2] => HEX.IN1
+X[2] => HEX.IN0
+X[2] => HEX.IN0
+X[2] => HEX.IN0
+X[3] => HEX.IN1
+X[3] => HEX.IN1
+X[3] => HEX.IN1
+X[3] => HEX.IN1
+X[3] => HEX.IN1
+X[3] => HEX.IN1
+X[3] => HEX.IN1
+HEX[0] <= HEX.DB_MAX_OUTPUT_PORT_TYPE
+HEX[1] <= HEX.DB_MAX_OUTPUT_PORT_TYPE
+HEX[2] <= HEX.DB_MAX_OUTPUT_PORT_TYPE
+HEX[3] <= HEX.DB_MAX_OUTPUT_PORT_TYPE
+HEX[4] <= HEX.DB_MAX_OUTPUT_PORT_TYPE
+HEX[5] <= HEX.DB_MAX_OUTPUT_PORT_TYPE
+HEX[6] <= HEX.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|shift_test|clockdivider:c1
+clock => enable~reg0.CLK
+clock => counter[0].CLK
+clock => counter[1].CLK
+clock => counter[2].CLK
+clock => counter[3].CLK
+clock => counter[4].CLK
+clock => counter[5].CLK
+clock => counter[6].CLK
+clock => counter[7].CLK
+clock => counter[8].CLK
+clock => counter[9].CLK
+clock => counter[10].CLK
+clock => counter[11].CLK
+clock => counter[12].CLK
+clock => counter[13].CLK
+clock => counter[14].CLK
+clock => counter[15].CLK
+clock => counter[16].CLK
+clock => counter[17].CLK
+clock => counter[18].CLK
+clock => counter[19].CLK
+clock => counter[20].CLK
+clock => counter[21].CLK
+clock => counter[22].CLK
+clock => counter[23].CLK
+clock => counter[24].CLK
+clock => counter[25].CLK
+clock => counter[26].CLK
+clock => counter[27].CLK
+enable <= enable~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|shift_test|shift_register:s1
+clock => q~reg0.CLK
+clock => curr_state[0].CLK
+clock => curr_state[1].CLK
+resetn => curr_state.OUTPUTSELECT
+resetn => curr_state.OUTPUTSELECT
+resetn => q.OUTPUTSELECT
+flip => curr_state.OUTPUTSELECT
+flip => curr_state.OUTPUTSELECT
+flip => q.OUTPUTSELECT
+one_one => curr_state.OUTPUTSELECT
+one_one => curr_state.OUTPUTSELECT
+one_one => q.OUTPUTSELECT
+enable => curr_state.OUTPUTSELECT
+enable => curr_state.OUTPUTSELECT
+enable => q.OUTPUTSELECT
+q <= q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|shift_test|shift_register:s2
+clock => q~reg0.CLK
+clock => curr_state[0].CLK
+clock => curr_state[1].CLK
+resetn => curr_state.OUTPUTSELECT
+resetn => curr_state.OUTPUTSELECT
+resetn => q.OUTPUTSELECT
+flip => curr_state.OUTPUTSELECT
+flip => curr_state.OUTPUTSELECT
+flip => q.OUTPUTSELECT
+one_one => curr_state.OUTPUTSELECT
+one_one => curr_state.OUTPUTSELECT
+one_one => q.OUTPUTSELECT
+enable => curr_state.OUTPUTSELECT
+enable => curr_state.OUTPUTSELECT
+enable => q.OUTPUTSELECT
+q <= q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|shift_test|shift_register:s3
+clock => q~reg0.CLK
+clock => curr_state[0].CLK
+clock => curr_state[1].CLK
+resetn => curr_state.OUTPUTSELECT
+resetn => curr_state.OUTPUTSELECT
+resetn => q.OUTPUTSELECT
+flip => curr_state.OUTPUTSELECT
+flip => curr_state.OUTPUTSELECT
+flip => q.OUTPUTSELECT
+one_one => curr_state.OUTPUTSELECT
+one_one => curr_state.OUTPUTSELECT
+one_one => q.OUTPUTSELECT
+enable => curr_state.OUTPUTSELECT
+enable => curr_state.OUTPUTSELECT
+enable => q.OUTPUTSELECT
+q <= q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|shift_test|shift_register:s4
+clock => q~reg0.CLK
+clock => curr_state[0].CLK
+clock => curr_state[1].CLK
+resetn => curr_state.OUTPUTSELECT
+resetn => curr_state.OUTPUTSELECT
+resetn => q.OUTPUTSELECT
+flip => curr_state.OUTPUTSELECT
+flip => curr_state.OUTPUTSELECT
+flip => q.OUTPUTSELECT
+one_one => curr_state.OUTPUTSELECT
+one_one => curr_state.OUTPUTSELECT
+one_one => q.OUTPUTSELECT
+enable => curr_state.OUTPUTSELECT
+enable => curr_state.OUTPUTSELECT
+enable => q.OUTPUTSELECT
+q <= q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|shift_test|shift_register:s5
+clock => q~reg0.CLK
+clock => curr_state[0].CLK
+clock => curr_state[1].CLK
+resetn => curr_state.OUTPUTSELECT
+resetn => curr_state.OUTPUTSELECT
+resetn => q.OUTPUTSELECT
+flip => curr_state.OUTPUTSELECT
+flip => curr_state.OUTPUTSELECT
+flip => q.OUTPUTSELECT
+one_one => curr_state.OUTPUTSELECT
+one_one => curr_state.OUTPUTSELECT
+one_one => q.OUTPUTSELECT
+enable => curr_state.OUTPUTSELECT
+enable => curr_state.OUTPUTSELECT
+enable => q.OUTPUTSELECT
+q <= q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|shift_test|shift_register:s6
+clock => q~reg0.CLK
+clock => curr_state[0].CLK
+clock => curr_state[1].CLK
+resetn => curr_state.OUTPUTSELECT
+resetn => curr_state.OUTPUTSELECT
+resetn => q.OUTPUTSELECT
+flip => curr_state.OUTPUTSELECT
+flip => curr_state.OUTPUTSELECT
+flip => q.OUTPUTSELECT
+one_one => curr_state.OUTPUTSELECT
+one_one => curr_state.OUTPUTSELECT
+one_one => q.OUTPUTSELECT
+enable => curr_state.OUTPUTSELECT
+enable => curr_state.OUTPUTSELECT
+enable => q.OUTPUTSELECT
+q <= q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|shift_test|shift_register:s7
+clock => q~reg0.CLK
+clock => curr_state[0].CLK
+clock => curr_state[1].CLK
+resetn => curr_state.OUTPUTSELECT
+resetn => curr_state.OUTPUTSELECT
+resetn => q.OUTPUTSELECT
+flip => curr_state.OUTPUTSELECT
+flip => curr_state.OUTPUTSELECT
+flip => q.OUTPUTSELECT
+one_one => curr_state.OUTPUTSELECT
+one_one => curr_state.OUTPUTSELECT
+one_one => q.OUTPUTSELECT
+enable => curr_state.OUTPUTSELECT
+enable => curr_state.OUTPUTSELECT
+enable => q.OUTPUTSELECT
+q <= q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|shift_test|shift_register:s8
+clock => q~reg0.CLK
+clock => curr_state[0].CLK
+clock => curr_state[1].CLK
+resetn => curr_state.OUTPUTSELECT
+resetn => curr_state.OUTPUTSELECT
+resetn => q.OUTPUTSELECT
+flip => curr_state.OUTPUTSELECT
+flip => curr_state.OUTPUTSELECT
+flip => q.OUTPUTSELECT
+one_one => curr_state.OUTPUTSELECT
+one_one => curr_state.OUTPUTSELECT
+one_one => q.OUTPUTSELECT
+enable => curr_state.OUTPUTSELECT
+enable => curr_state.OUTPUTSELECT
+enable => q.OUTPUTSELECT
+q <= q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|shift_test|shift_register:s9
+clock => q~reg0.CLK
+clock => curr_state[0].CLK
+clock => curr_state[1].CLK
+resetn => curr_state.OUTPUTSELECT
+resetn => curr_state.OUTPUTSELECT
+resetn => q.OUTPUTSELECT
+flip => curr_state.OUTPUTSELECT
+flip => curr_state.OUTPUTSELECT
+flip => q.OUTPUTSELECT
+one_one => curr_state.OUTPUTSELECT
+one_one => curr_state.OUTPUTSELECT
+one_one => q.OUTPUTSELECT
+enable => curr_state.OUTPUTSELECT
+enable => curr_state.OUTPUTSELECT
+enable => q.OUTPUTSELECT
+q <= q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+

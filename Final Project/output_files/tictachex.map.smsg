@@ -1,0 +1,4 @@
+Warning (10268): Verilog HDL information at tictachex.v(272): always construct contains both blocking and non-blocking assignments File: C:/Users/KeineZwei/Desktop/project/tictachex.v Line: 272
+Warning (10268): Verilog HDL information at tictachex.v(378): always construct contains both blocking and non-blocking assignments File: C:/Users/KeineZwei/Desktop/project/tictachex.v Line: 378
+Warning (10268): Verilog HDL information at tictachex.v(571): always construct contains both blocking and non-blocking assignments File: C:/Users/KeineZwei/Desktop/project/tictachex.v Line: 571
+Warning (10268): Verilog HDL information at tictachex.v(598): always construct contains both blocking and non-blocking assignments File: C:/Users/KeineZwei/Desktop/project/tictachex.v Line: 598
